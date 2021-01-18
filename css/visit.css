@@ -1,0 +1,44 @@
+h2 span {
+  color: green;
+  margin-right: -105.16px;
+}
+
+div.img img {
+  width: 200px;
+}
+
+/* (un)like buttons */
+.likebtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-left: -138.938px;
+}
+
+.unlikebtn {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-left: -152.047px;
+}
+
+.likebtn:hover {background-color: #45a049;}
+.unlikebtn:hover {background-color: #d10000;}
+
+/* Responsive buttons */
+@media screen and (max-width: 900px) {
+.unlikebtn, .likebtn {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

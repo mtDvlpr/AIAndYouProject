@@ -1,0 +1,21 @@
+/* Ascii art */
+code span {
+  display:block;
+  line-height:1em; 
+  font-size: 0.5vw; 
+  font-weight:bold;
+  white-space:pre;
+  font-family: monospace;
+  color: black; 
+  background: white;
+}
+
+.storyimg {
+  width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+  code span {
+    font-size: .7vw;
+  }
+}

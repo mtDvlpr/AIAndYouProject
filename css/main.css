@@ -1,0 +1,141 @@
+/* Icon pack */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* Menu layout */
+@import url("/css/menu.css");
+
+/* Chatroom layout */
+@import url("/css/chatroom.css");
+
+/* Message boxes */
+@import url("/css/messages.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("/images/background.jpg");
+  font-family: "Trebuchet MS";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  text-align: center;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Page container */
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+/* Header */
+.header {
+  padding: 30px;
+  margin: 10px 10px 0 10px;
+}
+
+.header img {
+  width:50%;
+}
+
+.header h1 {
+  font-size: 1.5em;
+}
+
+.content {
+  padding-bottom: 100px;
+}
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  padding-left: 10px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+/* Card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p span {
+  float: left;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  height: 80px;
+  padding: 20px;
+  background: black;
+}
+
+.footer a {color: #ccc;}
+.footer a:hover {color: white;}
+
+/* Cookie message */
+.cookieinfo span a {
+  opacity: .8 !important;
+  text-decoration:underline !important;
+}
+
+.cookieinfo span a:hover {
+  opacity: 1 !important;
+  text-decoration:none !important;
+}
+
+.cookieinfo-close:hover {
+  background-color: #ffe41a !important;
+}
+
+@media screen and (max-width: 702px) {
+  .cookieinfo-close {
+    min-width: 100% !important;
+  }
+}
+
+/* Responsive content */
+@media screen and (max-width: 900px) {
+  .header img {
+    width:90%;
+  }
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  .card, .form-container {
+    padding: 2%;
+    margin: 20px 10px 0 10px;
+    width: calc(100% - 20px) !important;
+  }
+}

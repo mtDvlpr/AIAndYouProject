@@ -1,0 +1,29 @@
+/* About us boxes */
+.personcard {
+  display:inline-block;
+  width:24%;
+}
+
+/* Images */
+.personcard .img {
+  width: 100%;
+}
+
+/* Website links */
+.link {
+  font-size: 1.5vw;
+}
+
+.personcard p {
+  font-size: 1.5vw;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 900px) {
+  .link {
+    font-size: 2.4vw;
+  }
+  .personcard p {
+    font-size: 2.4vw;
+  }
+}

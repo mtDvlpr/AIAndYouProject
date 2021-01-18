@@ -1,0 +1,190 @@
+ErrorDocument 400 /400.shtml
+ErrorDocument 401 /401.shtml
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.shtml
+
+RewriteEngine On
+
+# karen.php
+RewriteRule ^karen/?$ /chatbot/karen/karen.php
+
+# signup.php
+RewriteRule ^signup/?$ /pages/accounts/signup.php
+
+# verify.php
+RewriteRule ^verify/?$ /pages/accounts/verify.php
+
+# login.php
+RewriteRule ^login/?$ /pages/accounts/login.php
+
+# logout.php
+RewriteRule ^logout/?$ /pages/accounts/logout.php
+
+# forgot.php
+RewriteRule ^forgot/?$ /pages/accounts/forgot.php
+
+# account.php
+RewriteRule ^account/?$ /pages/accounts/account.php
+
+# visit.php
+RewriteRule ^visit/?$ /pages/accounts/visit.php
+
+# about.php
+RewriteRule ^about/?$ /pages/about.php
+
+# contact.php
+RewriteRule ^contact/?$ /pages/contact.php
+
+# stories.php
+RewriteRule ^stories/?$ /pages/stories.php
+
+# search.php
+RewriteRule ^search/?$ /pages/search.php
+
+# help.php
+RewriteRule ^help/?$ /pages/help.php
+
+# terms.php
+RewriteRule ^terms/?$ /pages/terms/terms.php
+
+# privacy.php
+RewriteRule ^privacy/?$ /pages/terms/privacy.php
+
+# cookies.php
+RewriteRule ^cookies/?$ /pages/terms/cookies.php
+
+# manoah
+RewriteRule ^manoah/?$ /manoah/index.php
+
+# home.php
+RewriteRule ^manoah/home/?$ /manoah/pages/home.php
+
+# mysql.php
+RewriteRule ^manoah/mysql/?$ /manoah/pages/project-pages/mysql.php
+
+# vwo4.php
+RewriteRule ^manoah/vwo-4/?$ /manoah/pages/project-pages/vwo-4.php
+
+# vwo6.php
+RewriteRule ^manoah/vwo-6/?$ /manoah/pages/project-pages/vwo-6.php
+
+# about.php
+RewriteRule ^manoah/about/?$ /manoah/pages/about.php
+
+# contact.php
+RewriteRule ^manoah/contact/?$ /manoah/pages/contact.php
+
+# account.php
+RewriteRule ^manoah/account/?$ /manoah/pages/login/account.php
+
+# logout.php
+RewriteRule ^manoah/logout/?$ /manoah/pages/login/logout.php
+
+# admin.php
+RewriteRule ^manoah/admin/?$ /manoah/pages/login/admin.php
+
+# secure.php
+RewriteRule ^manoah/secure/?$ /manoah/pages/login/secure.php
+
+# verify.php
+RewriteRule ^manoah/verify/?$ /manoah/pages/login/verify.php
+
+# cookie.php
+RewriteRule ^manoah/cookie-policy/?$ /manoah/pages/policies/cookie.php
+
+# privacy.php
+RewriteRule ^manoah/privacy-policy/?$ /manoah/pages/policies/privacy.php
+
+# terms.php
+RewriteRule ^manoah/terms/?$ /manoah/pages/policies/terms.php
+
+# games.php
+RewriteRule ^manoah/games/?$ /manoah/pages/games.php
+
+# bakery.html
+RewriteRule ^manoah/vwo-4/bakery/home/?$ /manoah/pages/vwo4-projects/bakery/bakery.html
+
+# products.html
+RewriteRule ^manoah/vwo-4/bakery/products/?$ /manoah/pages/vwo4-projects/bakery/products.html
+
+# bmi.php
+RewriteRule ^manoah/vwo-4/bmi/?$ /manoah/pages/vwo4-projects/bmi.php
+
+# bmw.php
+RewriteRule ^manoah/vwo-4/bmw/results/?$ /manoah/pages/vwo4-projects/bmw/bmw.php
+
+# bmw.html
+RewriteRule ^manoah/vwo-4/bmw/assemble/?$ /manoah/pages/vwo4-projects/bmw/bmw.html
+
+# cereals.php
+RewriteRule ^manoah/vwo-4/cereals/?$ /manoah/pages/vwo4-projects/cereals.html
+
+# colors.php
+RewriteRule ^manoah/vwo-4/colors/?$ /manoah/pages/vwo4-projects/colors.html
+
+# fingers.php
+RewriteRule ^manoah/vwo-4/fingers/?$ /manoah/pages/vwo4-projects/fingers.php
+
+# higher-lower.php
+RewriteRule ^manoah/vwo-4/higher-lower/?$ /manoah/pages/vwo4-projects/higher-lower.php
+
+# random-numbers.php
+RewriteRule ^manoah/vwo-4/random-numbers/?$ /manoah/pages/vwo4-projects/random-numbers.php
+
+# taxi.php
+RewriteRule ^manoah/vwo-4/taxi/?$ /manoah/pages/vwo4-projects/taxi.php
+
+# factorials.php
+RewriteRule ^manoah/vwo-6/factorials/?$ /manoah/pages/vwo6-projects/factorials.php
+
+# dice.php
+RewriteRule ^manoah/vwo-6/dice/?$ /manoah/pages/vwo6-projects/dice.php
+
+# converter.php
+RewriteRule ^manoah/vwo-6/converter/?$ /manoah/pages/vwo6-projects/converter.php
+
+# board-game.html
+RewriteRule ^manoah/vwo-6/board-game/setup/?$ /manoah/pages/vwo6-projects/board-game/board-game.html
+
+# board-game.php
+RewriteRule ^manoah/vwo-6/board-game/play/?$ /manoah/pages/vwo6-projects/board-game/board-game.php
+
+# learn-dutch.php
+RewriteRule ^manoah/vwo-6/learn-dutch/?$ /manoah/pages/vwo6-projects/learn-dutch.php
+
+# scooters.php
+RewriteRule ^manoah/vwo-6/scooters/?$ /manoah/pages/vwo6-projects/scooters.php
+
+# suitcases.php
+RewriteRule ^manoah/vwo-6/suitcases/?$ /manoah/pages/vwo6-projects/suitcases.php
+
+# animals.php
+RewriteRule ^manoah/vwo-6/animals/?$ /manoah/pages/vwo6-projects/animals.php
+
+# vote.php
+RewriteRule ^manoah/mysql/vote/?$ /manoah/pages/mysql-projects/vote/vote.php
+
+# firstchoice.php
+RewriteRule ^manoah/mysql/firstchoice/?$ /manoah/pages/mysql-projects/firstchoice/firstchoice.php
+
+# tetris.php
+RewriteRule ^manoah/games/tetris/?$ /manoah/pages/games/tetris.php
+
+# checkers.php
+RewriteRule ^manoah/games/checkers/?$ /manoah/pages/games/checkers.php
+
+# 2048.php
+RewriteRule ^manoah/games/2048/?$ /manoah/pages/games/2048.php
+
+# t-rex.php
+RewriteRule ^manoah/games/t-rex/?$ /manoah/pages/games/t-rex.php
+
+# bubble-shooter.php
+RewriteRule ^manoah/games/bubble-shooter/?$ /manoah/pages/games/bubble-shooter.php
+
+# dunk-shot.php
+RewriteRule ^manoah/games/dunk-shot/?$ /manoah/pages/games/dunk-shot.php
+
+# piano-tiles.php
+RewriteRule ^manoah/games/piano-tiles/?$ /manoah/pages/games/piano-tiles.php

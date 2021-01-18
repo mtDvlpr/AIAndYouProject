@@ -1,0 +1,63 @@
+/* Chatroom */
+.chatroom {
+  border-bottom: 1px solid black;
+  border-top: 2px solid black;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 200px;
+}
+
+/* Chat messages */
+.msg {
+  border-bottom: 1px solid black;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  text-align: left;
+  padding: 4px 0;
+}
+
+/* Block / unblock buttons */
+button.block, button.unblock {
+  background-color: transparent;
+  border: 0px;
+  float:right;
+  margin-top: 5px;
+  cursor: pointer;
+  }
+
+button.block i {
+  color:red;
+  font-size:1.5em;
+}
+
+button.unblock i {
+  color: green;
+  font-size:1.5em;
+}
+
+/* Chatroom form */
+#chat, #privatechat {
+  text-align: left;
+  margin-top: 5px;
+}
+
+h2 form {
+  display: inline;
+}
+
+#chat button, #privatechat button {
+  float: right;
+}
+
+#chat input[type="text"], #privatechat input[type="text"] {
+  width: 65%;
+  font-family: "Trebuchet MS";
+}
+
+.banmsg {
+  color: red;
+  font-size: 14px;
+}
